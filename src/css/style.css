@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none; 
+    color: black;
+}
+
+nav a:hover{
+    color: #ff5c00;
+    transition: color 0.5s;
+}
+
+nav li{
+    display: inline;
+    padding-right: 20px;
+}
+
+header{
+    background-image: url(../../assets/img/isola.jpeg);
+    padding: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+#opaco{
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+#opaco h1{
+    padding: 20px;
+}
+
+#destinazioni{
+    margin: 20px;
+    background-color: #ECEFF2;
+    padding: 20px 20px 50px;
+}
+
+caption{
+    font-weight: bold;
+    padding: 15px;
+}
+
+table { 
+    border-collapse: collapse;
+    width: 100%;
+} 
+
+thead{
+    border: 1px solid #2D98D7;
+}
+
+thead th{ 
+    border: none;
+}
+
+tbody td{
+    border: 1px solid #d1d3d6;
+}
+
+thead{
+    background-color: #2D98D7;
+    color: white;
+    font-weight: bold;
+}
+
+th, td{
+    padding: 10px;
+}
+
+tbody td:first-child{
+    text-align: center;
+}
+
+tbody img{
+    border-radius: 7px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ecf0f0 ;
+}
+
+tbody tr:nth-child(even){
+    background-color: white ;
+}
+
+tfoot{
+    background-color: #bfc1c6;
+    font-weight: bold;
+}
+
+#reviews{
+    padding: 20px 0;
+    margin: 20px;
+}
+
+.review-item{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin: 20px 0;
+    padding: 20px;
+    line-height: 30px;
+    background-color: #FAF9FA;
+    line-height: 50px;
+}
+
+.review-item img{
+    border-radius: 70%;
+}
+
+footer{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}

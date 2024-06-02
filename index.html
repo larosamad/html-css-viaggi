@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Sito di viaggi" content="width=device-width, initial-scale=1.0">
+    <title>Sito Viaggi</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#Home" style="text-decoration: none;">Home</a></li>
+            <li><a href="#Destinazioni" style="text-decoration: none;">Destinazioni</a></li>
+            <li><a href="#Recensioni" style="text-decoration: none;">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div id="opaco">
+            <h1><strong>Benvenuti al sito di viaggi</strong></h1>
+            <p>Scopri le migliori destinazioni per le tue vacanze. Esplora nuova avventure e crea ricordi indimenticabili con noi!</p>
+        </div>
+    </header>
+
+    <div id="destinazioni">
+        <h2>Le nostre destinazioni</h2>
+        <table>
+            <caption>Elenco delle destinazioni di Maggio 2024</caption>
+            <thead>
+                <tr> 
+                    <td>Immagini</td>
+                    <td>Descrizione</td>
+                    <td>Destinazione</td>
+                    <td>Paese</td>
+                    <td>Durata</td>
+                    <td>Prezzo</td>
+                </tr>  
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><img src="./assets/img/parigi.jpg" alt="Parigi" width="150" height="100"> </td>
+                    <td> Un romantico viaggio a Parigi, la citta dell'amore.</td>
+                    <td> Parigi</td>
+                    <td>Francia</td>
+                    <td>7 giorni</td>
+                    <td>€1000</td>
+                </tr>
+
+                <tr>
+                    <td><img src="./assets/img/newyork.jpg" alt="New York" width="150" height="100"></td>
+                    <td>Scopri le luci e l'energia di New York </td>
+                    <td>New York</td>
+                    <td>USA</td>
+                    <td>5 giorni</td>
+                    <td>€1200</td>
+                </tr>
+
+                <tr>
+                    <td><img src="./assets/img/tokyo.jpg" alt="Tokyo" width="150" height="100"></td>
+                    <td>Esplora la cultura e la tecnologia avanzata di Tokyo.</td>
+                    <td>Tokyo</td>
+                    <td>Giappone</td>
+                    <td>7 giorni</td>
+                    <td>€1500</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                <td colspan="6">Totale Destinazioni: 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="reviews">
+        <h2>Recensioni dei clienti</h2>
+        <div class="review-item">
+            <h3>Maria Rossi</h3>
+            <img src="./assets/img/signora.jpg" alt="Maria">
+            <p>Viaggio indimenticabile a Parigi! Servizio eccellente e organizzazione perfetta</p>
+            <a href="#">Leggi di più</a>
+        </div>
+
+        <div class="review-item">
+            <h3>Luigi Bianchi</h3>
+            <img src="./assets/img/signore.jpg" alt="Luigi">
+            <p>New York fanstatica! Grazie a voi per l'ottima esperienza</p>
+            <a href="#">Leggi di più</a>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Contatti</h3>
+        <ul>
+            <li>Email: <a  href="mailto:info@viaggi.com"  target="_blank">info@viaggi.com</a></li>
+            <li>Seguici sui social media: <a href="https://x.com/?lang=it"  target="_blank">Twitter</a>, <a href="https://www.linkedin.com"  target="_blank">Linkedin</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
